@@ -60,6 +60,7 @@ document.querySelector("#btn").addEventListener("click", () => {
   timer = 60;
   document.querySelector("#timerval").textContent = timer;
   score = 0;
+  document.querySelector("#scoreval").textContent = score;
   getnewHit();
   document.querySelector(".pbtm").classList.remove("dis");
   document.querySelector(".gvr").classList.add("dis");
