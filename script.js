@@ -59,6 +59,7 @@ document.querySelector("#btn").addEventListener("click", () => {
   stopTimer();
   timer = 60;
   document.querySelector("#timerval").textContent = timer;
+  score = 0;
   getnewHit();
   document.querySelector(".pbtm").classList.remove("dis");
   document.querySelector(".gvr").classList.add("dis");

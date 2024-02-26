@@ -51,6 +51,7 @@ body {
   padding: 5px 30px;
   color: rgb(18, 119, 57);
   border-radius: 5px;
+  cursor: pointer;
 }
 .elem h2 {
   font-weight: 500;
